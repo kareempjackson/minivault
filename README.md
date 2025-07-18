@@ -57,7 +57,7 @@ add a .env file to the minivault-api folder and enter the PORT you will be runni
 ### 2. Run Backend
 
 ```bash
-cd backend
+cd minivault-api
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 uvicorn app:app --reload
